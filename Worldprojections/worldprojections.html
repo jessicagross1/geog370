@@ -8,21 +8,54 @@
 <body>
     <h1>In this project I learned how to display images in different projections</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <h2>Jessica Gross</h2>
+    <p>To display the different projections in QGIS, I adjusted the ESPG of the world map to find different projections. To do this, I went to the bottom right hand corner of QGIS to where it said, "ESPG." I then plugged in the required ESPG numbers. It was cool to see the indicatrix points change shape every time I changed the ESPG.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>In this projection, the width of the continents were bigger to the extent that Greenland was the same size of the U.S. However, this map does a good job of not making Europe the center (by being oversized and bigger than Africa) of the map, as it usually is.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The Aitoff projection has a much more 3D feel to it than the WGS84 projection above. Greeland is significantly smaller than it was projected in the map above.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
+    <h2>Pseduo Mercator Projection</h2>
+    <h3>This looks like the standard map that we are used to, especially in America. The length of the continents are stretched. Greenland is Bigger than the entirity of South American and as big as Africa.</h3>
+    <a href=".//maps/3857.png">
+    <img src=".//maps/3857.png" alt="Pseduo Mercator" width='500px'>
+    </a>
+    <h2>Winkle Projection</h2>
+    <h3>This looks like the standard atlas map that I am used to. Like the Pseudo Mercator, the length of the contients are distorted, but at the equator, everything looks in place.</h3>
+    <a href=".//maps/53018.png">
+    <img src=".//maps/53018.png" alt="Winkle" width='500px'>
+    </a>
+    <h2>Equal Area Cylindrical Projection</h2>
+    <h3>The large values of the latitudes are incredibly distorted. Africa looks extremely big here, to the point where it is almost the biggest body of land.</h3>
+    <a href=".//maps/54034.png">
+    <img src=".//maps/54034.png" alt="Equal Area Cylindrical" width='500px'>
+    </a>
+    <h2>World Equidistant Conic Projection</h2>
+    <h3>This map is confusing to me because there is an entire gap in the pacific ocean to the point where the map completley breaks at the top.</h3>
+    <a href=".//maps/54027.png">
+    <img src=".//maps/54027.png" alt="World Equidistant Conic" width='500px'>
+    </a>
+    <h2>North Pole Azimuthal Equidistant Projection</h2>
+    <h3>Unlike the map above, this map connects in the pacific, but is still incredibly distored on that side of the globe.</h3>
+    <a href=".//maps/102016.png">
+    <img src=".//maps/102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
+    </a>
+    <h2>South Pole Azimuthal Equidistant Projection</h2>
+    <h3>This is the bottom of the map above and centers around the south pole, which looks tiny compared to its size in the Equal Area Clyndrical Projection. This map has the Pacific closer together, but only because it widens North America and Serbia (I think).</h3>
+    <a href=".//maps/102019.png">
+    <img src=".//maps/102019.png" alt="South Pole Azimuthal Equidistant" width='500px'>
+    </a>
+    <h2>World Van der Grintent I Projection</h2>
+    <h3>I thought this map was interesting because it was a mix between the Winkle and Psuedo Mercator projections. North America is incredibly enlarged that it once again overshadows Africa, though Europe is still small. The South Pole has a drastic englarging since the map above.</h3>
+    <a href=".//maps/54029.png">
+    <img src=".//maps/54029.png" alt="World Van der Grintent I" width='500px'>
+    </a>
     <p></p>
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
