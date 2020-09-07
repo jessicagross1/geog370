@@ -37,11 +37,13 @@
      //        .openPopup();
      //        L.geoJSON(wilson).addTo(map)
 
+      
+
 // SOUTH BUILDING CODE -------------------------------------------------------------------------------------------------------------------------------
-        L.marker([35.9117, -79.0511]).addTo(map)
-            .bindPopup("South Building")
-            .openPopup();
-            L.geoJSON(south).addTo(map)
+    L.marker([35.9117, -79.0511]).addTo(map)
+        .bindPopup("South Building")
+        .openPopup();
+        L.geoJSON(south).addTo(map)
 
     var southIcon = L.icon({
         iconURL: 'https://icon-library.net//images/stars-icon-png/stars-icon-png-26.jpg',
@@ -51,41 +53,41 @@
 
     var customPopup = "South Building<br/><img src='https://commons.wikimedia.org/wiki/File:UNC_South_Building.JPG#/media/File:UNC_South_Building.JPG'width='90px'/>";
 
-  //   L.geoJSON(south, {
-  //      pointToLayer: function (feature, latlng) {
-   //         return L.marker(latlng, {icon: southIcon});}})
-   //         .bindPopup(customPopup)
-   //         .addTo(map);
+   // L.geoJSON(south, {
+   //     pointToLayer: function (feature, latlng) {
+   //     return L.marker(latlng, {icon: southIcon});}})
+   //    .bindPopup(customPopup)
+   //     .addTo(map);
     
 // LENOIR DINING HALL CODE ----------------------------------------------------------------------------------------------------------------------------------
-        var lenoirIcon = L.icon({
-            iconUrl: 'https://icon-library.net//images/fork-and-knife-icon-png/fork-and-knife-icon-png-22.jpg',
-            iconSize: [30, 30],
-            popupAnchor: [0,0]
-        });
+    var lenoirIcon = L.icon({
+        iconUrl: 'https://icon-library.net//images/fork-and-knife-icon-png/fork-and-knife-icon-png-22.jpg',
+        iconSize: [30, 30],
+        popupAnchor: [0,0]
+    });
         
-        var customPopup = "Lenoir Hall<br/><img src='http://unchistory.web.unc.edu/files/2017/11/lenoir-hall.jpg'width='90px'/>";
+    var customPopup = "Lenoir Hall<br/><img src='http://unchistory.web.unc.edu/files/2017/11/lenoir-hall.jpg'width='90px'/>";
 
-        L.geoJSON(lenoir, { 
-           pointToLayer: function (feature, latlng) { 
-           return L.marker(latlng, {icon: lenoirIcon});}}) 
-           .bindPopup(customPopup) 
-           .addTo(map); 
+    L.geoJSON(lenoir, { 
+        pointToLayer: function (feature, latlng) { 
+        return L.marker(latlng, {icon: lenoirIcon});}}) 
+        .bindPopup(customPopup) 
+        .addTo(map); 
 
 // WILSON LIBRARY CODE ----------------------------------------------------------------------------------------------------------------------------------
-        var wilsonIcon = L.icon({
-            iconUrl: 'https://icon-library.net//images/library-book-icon/library-book-icon-4.jpg',
-            iconSize: [30, 30],
-            popupAnchor: [0,0]
-        });
+    var wilsonIcon = L.icon({
+        iconUrl: 'https://icon-library.net//images/library-book-icon/library-book-icon-4.jpg',
+        iconSize: [30, 30],
+        popupAnchor: [0,0]
+    });
 
-        var customPopup = "Wilson Library<br/><img src='https://upload.wikimedia.org/wikipedia/commons/0/07/2008-07-11_UNC-CH_Wilson_Library_1.jpg'width='90px'/>";
+    var customPopup = "Wilson Library<br/><img src='https://upload.wikimedia.org/wikipedia/commons/0/07/2008-07-11_UNC-CH_Wilson_Library_1.jpg'width='90px'/>";
 
-        L.geoJSON(wilson, {
-            pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon: wilsonIcon});}})
-            .bindPopup(customPopup)
-            .addTo(map);     
+    L.geoJSON(wilson, {
+        pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: wilsonIcon});}})
+        .bindPopup(customPopup)
+        .addTo(map);     
    </script>
 </body>
 </html>
