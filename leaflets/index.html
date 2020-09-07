@@ -25,7 +25,7 @@
 
    <script>
        var map = L.map('mapid').setView([35.9049, -79.0469], 16); 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution: '&copy;<ahref="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map) 
+       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution: '&copy;<ahref="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map) 
 
      //  L.marker([35.9106, -79.0487]).addTo(map)
       //     .bindPopup("Lenoir Dining Hall")
@@ -36,29 +36,10 @@
      //        .bindPopup("Wilson Library")
      //        .openPopup();
      //        L.geoJSON(wilson).addTo(map)
-
-      
-
 // SOUTH BUILDING CODE -------------------------------------------------------------------------------------------------------------------------------
-    L.marker([35.9117, -79.0511]).addTo(map)
+ L.marker([35.9117, -79.0511]).addTo(map)
         .bindPopup("South Building")
         .openPopup();
-        L.geoJSON(south).addTo(map)
-
-    var southIcon = L.icon({
-        iconURL: 'https://icon-library.net//images/stars-icon-png/stars-icon-png-26.jpg',
-        iconSize: [50, 50],
-        popupAnchor: [0,0]
-    });
-
-    var customPopup = "South Building<br/><img src='https://commons.wikimedia.org/wiki/File:UNC_South_Building.JPG#/media/File:UNC_South_Building.JPG'width='90px'/>";
-
-   // L.geoJSON(south, {
-   //     pointToLayer: function (feature, latlng) {
-   //     return L.marker(latlng, {icon: southIcon});}})
-   //    .bindPopup(customPopup)
-   //     .addTo(map);
-    
 // LENOIR DINING HALL CODE ----------------------------------------------------------------------------------------------------------------------------------
     var lenoirIcon = L.icon({
         iconUrl: 'https://icon-library.net//images/fork-and-knife-icon-png/fork-and-knife-icon-png-22.jpg',
@@ -88,6 +69,21 @@
         return L.marker(latlng, {icon: wilsonIcon});}})
         .bindPopup(customPopup)
         .addTo(map);     
+
+// MOREHEAD PLANETARIUM CODE 
+    var moreheadIcon = L.icon({
+        iconURL: 'https://icon-library.com/images/earth-512_17329.png',
+        iconSize: [30, 30],
+        popupAnchor: [0,0]
+    });
+
+    var customPopup = "Morehead Planetarium<br/><img src='https://en.wikipedia.org/wiki/Morehead_Planetarium_and_Science_Center#/media/File:Morehead_Planetarium.JPG'width='90px'/>";
+
+    L.geoJSON(morehead, {
+        pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {icon: moreheadIcon});}})
+            .bindPopup(customPopup)
+            .addTo(map);
    </script>
 </body>
 </html>
