@@ -1,0 +1,8 @@
+var red = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name":
+"urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "descrip": "green lake" }, "geometry": { "type": "Point", "coordinates": [ 47.681568, -122.341133] } }
+]
+}
