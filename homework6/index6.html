@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6 Leaflets</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+   <script src = "data/first"></script>
+   <script src = "data/second"></script>
+   <script src = "data/third"></script>
+
+</head>
+<body>
+    <div id="mapid"></div>
+    <style>
+        #mapid{width: 900px; height: 500px;}
+    </style>
+    <script>
+        var map = L.map('mapid').setView([33.8737, -78.0015], 17);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy;<ahref="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map)
+
+    // MARKERS
+      //  L.marker([33.8735, -78.0004]).addTo(map)
+         //  .bindPopup("Old Baldy Lighthouse")
+         //   .openPopup();
+         //   L.geoJSON(light).addTo(map)
+    
+       // L.marker([33.8730, -78.0000]).addTo(map)
+         //  .bindPopup("Bald Head Chapel")
+         //   .openPopup();
+         //   L.geoJSON(chapel).addTo(map)
+
+       // L.marker([33.869743, -78.001182]).addTo(map)
+         //  .bindPopup("My Friend's House")
+         //   .openPopup();
+         //   L.geoJSON(house).addTo(map)
+
+    // BALD HEAD LIGHTHOUSE ------------------------------------------------------------------------------------------------------------------------------------
+        var lightIcon = L.icon({
+            iconUrl: 'https://icon-library.net//images/lighthouse-icon-png/lighthouse-icon-png-23.jpg', 
+            iconSize: [70, 70],
+            popupAnchor: [0,0]
+        });
+
+        var customPopup = "Old Baldy Light House<br/><img src='https://portcitydaily.com/wp-content/uploads/2017/03/Bald-Head-Island-Lighthouse-PortCityDaily-Jim-Dollar.jpg'width='90px'/>";
+
+        L.geoJSON(light, { 
+            pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {icon: lightIcon});}})
+            .bindPopup(customPopup)
+            .addTo(map);
+
+    // BALD HEAD CHAPEL ------------------------------------------------------------------------------------------------------------------------------------------------
+        var chapelIcon = L.icon({
+            iconUrl: 'https://icon-library.com/images/building-02-512.png',
+            iconSize: [70, 70],
+            popupAnchor: [0,0],
+        });
+
+        var customPopup = "Bald Head Island Chapel<br/><img src='https://i.pinimg.com/originals/1d/d8/12/1dd812c84e33b5afc1b0dd8f20005b01.jpg'width='90px'/>";
+
+        L.geoJSON(chapel, { 
+            pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {icon: chapelIcon});}})
+            .bindPopup(customPopup)
+            .addTo(map);
+
+    // HOUSE -----------------------------------------------------------------------------------------------------------------------------------------------------
+        var houseIcon = L.icon({
+            iconUrl: 'https://icon-library.net//images/transparent-house-icon/transparent-house-icon-1.jpg',
+            iconSize: [70,70],
+            popupAnchor: [0,0],
+        });
+
+        var customPopup = "Friend's House<br/><img src='https://images.ctfassets.net/gxwgulxyxxy1/5pff2XgEp6y4jYcbYaHLVy/c63cf6757c18e652452d7d16f89d81ec/h3_-_A_large_beach_house_with_a_driveway_and_a_sun-splashed_deck.jpg?fm=jpg&fl=progressive&w=1360&q=60'width='90px'/>";
+
+        L.geoJSON(house, {
+            pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {icon: houseIcon});}})
+            .bindPopup(customPopup)
+            .addTo(map);
+    </script>
+    
+</body>
+</html>
