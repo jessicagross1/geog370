@@ -50,7 +50,7 @@
         });
 
         var customPopup = "Old Baldy Light House: Like the other two features georeferenced, it looks as if the lighthouse was not built at the time when the older, black and white picture was taken.<br/><img src='https://portcitydaily.com/wp-content/uploads/2017/03/Bald-Head-Island-Lighthouse-PortCityDaily-Jim-Dollar.jpg'width='90px'/>";
-// need to include narrated changes that i observe
+
         L.geoJSON(light, { 
             pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon: lightIcon});}})
@@ -65,7 +65,7 @@
         });
 
         var customPopup = "Bald Head Island Chapel: The island has been developed since the black and white picture was taken, and it looks as if the Chapel did not exist in the 60s. Instead, the natural beach and island have moved a bit.<br/><img src='https://i.pinimg.com/originals/1d/d8/12/1dd812c84e33b5afc1b0dd8f20005b01.jpg'width='90px'/>";
-// need to include narrated changes that i observe
+
         L.geoJSON(chapel, { 
             pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon: chapelIcon});}})
@@ -80,7 +80,7 @@
         });
 
         var customPopup = "My Friend's House: This house was built in the early 2000s, so obviously this was not here during the 60s when the older picture was taken. Additionally, it looks as if the whole island was predominately unhibitated and has only been developed more recently.<br/><img src='https://images.ctfassets.net/gxwgulxyxxy1/5pff2XgEp6y4jYcbYaHLVy/c63cf6757c18e652452d7d16f89d81ec/h3_-_A_large_beach_house_with_a_driveway_and_a_sun-splashed_deck.jpg?fm=jpg&fl=progressive&w=1360&q=60'width='90px'/>";
-// need to include narrated changes that i observe
+
         L.geoJSON(house, {
             pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon: houseIcon});}})
