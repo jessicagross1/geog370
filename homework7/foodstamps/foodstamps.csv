@@ -1,30 +1,30 @@
-GEO_ID,NAME,S2201_C04_001E
-0500000US02013,"Aleutians East Borough, Alaska",12.9
-0500000US02016,"Aleutians West Census Area, Alaska",6
-0500000US02020,"Anchorage Municipality, Alaska",8.7
-0500000US02050,"Bethel Census Area, Alaska",39.4
-0500000US02060,"Bristol Bay Borough, Alaska",5.7
-0500000US02068,"Denali Borough, Alaska",5.6
-0500000US02070,"Dillingham Census Area, Alaska",26.4
-0500000US02090,"Fairbanks North Star Borough, Alaska",6.9
-0500000US02100,"Haines Borough, Alaska",7.7
-0500000US02105,"Hoonah-Angoon Census Area, Alaska",14
-0500000US02110,"Juneau City and Borough, Alaska",8.2
-0500000US02122,"Kenai Peninsula Borough, Alaska",9.6
-0500000US02130,"Ketchikan Gateway Borough, Alaska",14.8
-0500000US02150,"Kodiak Island Borough, Alaska",9.2
-0500000US02158,"Kusilvak Census Area, Alaska",59.9
-0500000US02164,"Lake and Peninsula Borough, Alaska",24
-0500000US02170,"Matanuska-Susitna Borough, Alaska",10.3
-0500000US02180,"Nome Census Area, Alaska",31.8
-0500000US02185,"North Slope Borough, Alaska",17.4
-0500000US02188,"Northwest Arctic Borough, Alaska",34.5
-0500000US02195,"Petersburg Borough, Alaska",11.1
-0500000US02198,"Prince of Wales-Hyder Census Area, Alaska",17.6
-0500000US02220,"Sitka City and Borough, Alaska",8.3
-0500000US02230,"Skagway Municipality, Alaska",2.8
-0500000US02240,"Southeast Fairbanks Census Area, Alaska",8.8
-0500000US02261,"Valdez-Cordova Census Area, Alaska",4.6
-0500000US02275,"Wrangell City and Borough, Alaska",13.8
-0500000US02282,"Yakutat City and Borough, Alaska",8.6
-0500000US02290,"Yukon-Koyukuk Census Area, Alaska",31.8
+GEO_ID,NAME,S2201_C04_001E,
+2013,Aleutians East,12.9,
+2016,Aleutians West,6,
+2020,Anchorage,8.7,
+2050,Bethel,39.4,
+2060,Bristol Bay,5.7,
+2068,Denali,5.6,
+2070,Dillingham,26.4,
+2090,Fairbanks North Star,6.9,
+2100,Haines,7.7,
+2105,Hoonah-Angoon,14,
+2110,Juneau,8.2,
+2122,Kenai Peninsula,9.6,
+2130,Ketchikan Gateway,14.8,
+2150,Kodiak Island,9.2,
+2158,Kusilvak,59.9,
+2164,Lake and Peninsula,24,
+2170,Matanuska-Susitnaa,10.3,
+2180,Nome,31.8,
+2185,North Slope,17.4,
+2188,Northwest Arctic,34.5,
+2195,Petersburg,11.1,
+2198,Prince of Wales-Hyder,17.6,
+2220,Sitka,8.3,
+2230,Skagway,2.8,
+2240,Southeast Fairbanks,8.8,
+2261,Valdez-Cordova,4.6,
+2275,Wrangell,13.8,
+2282,Yakutat,8.6,
+2290,Yukon-Koyukuk,31.8,

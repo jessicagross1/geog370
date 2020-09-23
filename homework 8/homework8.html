@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+
+    <script src = "./alaska7.geojson"></script> 
+
+</head>
+
+<body>
+    <h1>Homework 8: Different Chloropleth Maps of Alaska</h1>
+    <h3>Jessica Gross</h3>
+    
+    <h3>Three different maps depicting the ratio of households that use SNAP/Food Stamps with children under 18 years old
+        to the total number of households using SNAP/Food Stamps</h2>
+
+    <h2>Total Households on SNAP</h2>
+    <h3>For Reference, this is the map depcting the total number of households using SNAP/Food Stamps, using Pretty Breaks</h3>
+    <a href="./foodstamps_hw8/alaska_foodstamps_total.png">
+        <img src="./foodstamps_hw8/alaska_foodstamps_total.png" alt="Reference Map" width='820px'></a>
+
+    <h2>Map 1: Pretty Breaks</h3>
+    <h3>This map is categorized using Pretty Breaks, which is a decent method to use. However, it doesn't give us a lot of variety between each county
+        (though I think this is more due to the amount of classes used).</h3> 
+    <a href="./foodstamps_hw8/alaska_foodstamps_PB.png">
+    <img src="./foodstamps_hw8/alaska_foodstamps_PB.png" alt="Pretty Breaks" width='820px'></a>
+
+    <h2>Map 2: Natural Breaks</h2>
+    <h3>There still is no difference when converting this map to the Natural Breaks, which is a helpful categorization to use when classifying data. 
+        However, Natural Breaks focus on extremes of the data, which is apparent here. There is one county, in the South, on one side of the spectrum,
+        and the rest fall onto the other side of the specturem, which doesn't really give us any variation.</h3>
+    <a href="./foodstamps_hw8/alaska_foodstamps_NB.png">
+    <img src="./foodstamps_hw8/alaska_foodstamps_NB.png" alt="Natural Breaks" width='820px'></a>
+
+    <h2>Map 3: Equal Intervals</h2>
+    <h3>For some reason, my data looks the exact same even with the Equal Interval. I know that my data does have disceprancies, 
+        because when I add more classes, it varies considerably between each categorization. However, I decided to air on the side of caution and use less classes.
+        Equal Interval categoraizations are nice because they clump the data evenly. However, it is the rare instance when the data can be dividely perfectly evenly.  </h3>
+    <a href="./foodstamps_hw8/alaska_foodstamps_EI.png">
+    <img src="./foodstamps_hw8/alaska_foodstamps_EI.png" alt="Equal Interval" width='820px'></a>
+
+
+    
+    <h2> Data used for this project</h2>
+    <a href="./alaska7.geojson"> Link to Shapefile </a>
+    <h3>Csv file:</h3>
+    <a href="./foodstamps_hw8/foodstamps_homework8.csv"> CSV File </a>
+</body>
+</html>
