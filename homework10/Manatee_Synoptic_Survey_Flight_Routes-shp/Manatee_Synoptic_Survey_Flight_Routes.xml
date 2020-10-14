@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20190301</pubdate>
+                <title>Manatee Synoptic Survey Flight Path (2004-present)</title>
+                <geoform>vector digital data</geoform>
+                <onlink>http://geodata.myfwc.com</onlink>
+                <onlink>http://atoll.floridamarine.org/Data/KMZ_files/Manatee - Synoptic Survey Flight Route - 2019.kmz</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The word &#147;synoptic&#148; means presenting a general view of the whole. The current manatee synoptic survey is a count of manatees over a broad area. The Florida Fish and Wildlife Conservation Commission (FWC) uses these surveys to obtain a general count of manatees statewide. The FWC coordinates an interagency team that conducts the synoptic surveys from one to three times each year (weather permitting). The synoptic surveys are conducted in winter and cover all of the known wintering habitats of manatees in Florida. The survey is conducted to meet Florida state statute 370.12 (4), which requires an annual, impartial, scientific benchmark census of the manatee population. From 1991 through 2019, the counts have been conducted 33 times. These statewide, interagency surveys are currently conducted during the coldest weather of the year (January through March) when manatees move to warm-water sites, such as natural springs, thermal discharges from power and industrial plants, and deep canals. The ideal conditions for the current synoptic survey are cool weather, following a prolonged period of cold weather (usually following multiple cold fronts), low winds, and bright sunshine. Weather conditions and manatee behavior during the survey have a large effect on the synoptic counts. For that reason, the counts are used as indicators of relative abundance within a year and are not suitable for assessing long-term population trends. Counts can vary depending on whether it is warm or cold, sunny or cloudy, calm or windy. Manatees are more easily counted a few days after a cold front when it is slightly warmer, clear, and windless. A warming trend with sunny, windless conditions following cold weather increases the likelihood that manatees will be resting at the water's surface, where observers can easily spot them.</abstract>
+            <purpose>To obtain a general (minimum) count of manatees statewide.</purpose>
+            <supplinf>-Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The Institute's name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The Institute's name has been changed in references to ongoing research, new research, and contact information.--</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20040101</begdate>
+                </rngdates>
+            </timeinfo>
+            <current>2004 to present</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-83.218014</westbc>
+                <eastbc>-79.883625</eastbc>
+                <northbc>30.7253</northbc>
+                <southbc>24.661581</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Operational Tiers</themekt>
+                <themekey>Wildlife Research</themekey>
+                <themekey>Florida Fish and Wildlife Research Institute</themekey>
+                <themekey>Marine Mammal Research</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>biota</themekey>
+            </theme>
+            <theme>
+                <themekt>FWRI Theme</themekt>
+                <themekey>manatees</themekey>
+                <themekey>marine mammals</themekey>
+                <themekey>threatened and endangered (turtles</themekey>
+                <themekey>whales</themekey>
+                <themekey>manatees</themekey>
+                <themekey>sturgeon)</themekey>
+                <themekey>research</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>biota</themekey>
+            </theme>
+            <place>
+                <placekt>FWC Region</placekt>
+                <placekey>FWC Region-Southeast</placekey>
+                <placekey>FWC Region-Northwest</placekey>
+                <placekey>FWC Region-Northeast</placekey>
+                <placekey>FWC Region-Southwest</placekey>
+            </place>
+            <place>
+                <placekt>FWRI Place</placekt>
+                <placekey>Florida</placekey>
+                <placekey>Georgia</placekey>
+            </place>
+            <temporal>
+                <tempkt>Season</tempkt>
+                <tempkey>winter</tempkey>
+            </temporal>
+        </keywords>
+        <accconst>All data must be verified by Principle Investigator or Group Database Analyst prior to release. It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+        <useconst>Acknowledgment of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data. Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <address>Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>metadata@MyFWC.com</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Various organizations and researchers contributed to the surveys in various years. Contributing organizations include, but are not limited to: Brevard County, Broward County, Center for Marine Conservation, Collier County, Dade County, Department of Environmental Protection, IHA Environmental Services/NASA (formerly known as Dynamac Corporation/NASA), Eckerd College, Everglades National Park, Florida Park Service, Florida Fish and Wildlife Conservation Commission, Friends of Islamorada, Georgia Department of Natural Resources, Jacksonville University, Kennedy Space Center, Miami-Dade County, Mote Marine Laboratory, National Park Service, Ocean Conservancy, Palm Beach County, Save the Manatee Club, Sea to Shore Alliance, St. John's River Keeper, U.S. Fish and Wildlife Service, U.S. Geological Survey, Wakulla Springs State Park and Wildlife Trust. Data were entered and verified by FWC staff. Related grant: USFWS 2305. Use of these data must be credited in any reports or other written publications by the following sentence: "Manatee specific data used in analyses were collected under scientific research permit #MA773494 issued to FWC-FWRI."</datacred>
+        <native>ESRI shapefile</native>
+        <crossref>
+            <citeinfo>
+                <pubdate>20190301</pubdate>
+                <title>Manatee Synoptic Survey Sightings</title>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Each survey team was supplied with a theoretical flight route as a guideline. Starting in 2004 and in 2005, the observers recorded their flight path by hand on a set of maps, which were digitized by FWC staff. Starting in 2006, the observers were responsible for recording the aircraft&#146;s actual flight route using a GPS. The flight routes were downloaded as points and converted to a polyline. Beginning in 2009, flight paths were edited to exclude "off effort" segments (e.g., transit to and from the airport). The final flight paths may contain errors if the GPS unit stopped recording, had difficulty communicating with satellites or experienced some other error.</attraccr>
+        </attracc>
+        <logic>QA/QC complete</logic>
+        <complete>No flight paths are available for surveys prior to the 2004 survey. Starting in 2004 and in 2005, flight routes were digitized off of flight paths drawn onto a paper map set by the observers. From the synoptic year 2006 forward, flight routes are correct to the accuracy of the handheld GPS unit being used to record the location of the plane (potentially reaching &lt;15m precision). Beginning in 2009, flight paths were edited to exclude "off effort" segments (e.g., transit to and from the airport). --2004: Complete. --2005: The flight routes for Duval County (ICW and St Johns River) and Kennedy Space Center were not recorded and are omitted from this shapefile. --2006: Complete. --2007: The flight routes for Broward, Charlotte, Miami-Dade, and Palm Beach Counties were not recorded and are omitted from this shapefile. The included flight routes include unsurveyed segments from take-off to the beginning of the survey and from the end of the survey to landing. --2008: No survey was flown. --2009: The flight routes for Brevard, Miami-Dade and Kennedy Space Center were not recorded and are omitted from this shapefile. The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey and from the end of the survey to landing. --2010: The flight routes for Duval (ICW), Brevard and Broward Counties were not recorded and are omitted from this shapefile. The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey and from the end of the survey to landing. --2011: The flight routes for Lee County, the northern portion of Miami-Dade County, Kennedy Space Center, Blue Springs and Warm Mineral Springs were not recorded and are omitted from this shapefile. The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey and from the end of the survey to landing. --2012: No survey flown. --2013: No survey flown. --2014: The flight routes for Manatee and Sarasota Counties were not recorded and are omitted from this shapefile. There are no tracks for the areas surveyed from land (Blue Springs, Warm Mineral Springs, Wakulla Springs, Silver Glen Springs, DeLeon Springs and Welaka Springs). The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey, during break (if applicable) and from the end of the survey to landing. --2015: The flight route for the southern portion of Sarasota County is omitted from this shapefile. There are no tracks for the areas surveyed from land (Blue Springs, Warm Mineral Springs, Wakulla Springs, Salt Springs, Silver Glen Springs, and Welaka Springs). For Brevard County, the northern section of Indian River and Mosquito Lagoon were surveyed for the first time since the 2011 synoptic survey. The included flight routes have been edited to exclude segments not surveyed from take-off to the beginning of the survey, during break (if applicable) and from the end of the survey to landing. --2016: The flight route from part of Duval (St. Johns River) survey was not recorded and is omitted from this shapefile. There are no tracks for the areas surveyed from land (Blue Springs, Warm Mineral Springs, Wakulla Springs, Silver Glen Springs and Welaka Springs). The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey, during break (if applicable) and from the end of the survey to landing. --2017: The flight routes from St Martin/Lucie and part of Palm Beach County surveys were not recorded and are omitted from this shapefile. The Nassau County section of the Northeast survey was not flown due to low light conditions. There are no tracks for the areas surveyed from land (Blue Springs, Warm Mineral Springs, Wakulla Springs, Silver Glen Springs, Welaka Springs, Bugg Spring). The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey, during break (if applicable) and from the end of the survey to landing.--2019: The flight routes from the 300s and 400s surveys were not recorded and are omitted from this shapefile. The 400s, 800s, 900s, 1000s, 1100s, and 1700s were partially surveyed due to aircraft time or air traffic constraints and/or weather conditions. There are no tracks for the areas surveyed from land (Blue Springs, Wakulla Springs, Silver Glen Springs, Welaka Springs, Silver River). The included flight routes have been edited to exclude unsurveyed segments from take-off to the beginning of the survey, during break (if applicable) and from the end of the survey to landing.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Starting in 2004 and in 2005, flight routes were digitized off of flight paths drawn onto a paper map set by the observers. From the synoptic year 2006 forward, flight routes are correct to the accuracy of the handheld GPS unit being used to record the location of the plane (potentially reaching &lt;15m precision). Beginning in 2009, flight paths were edited to exclude "off effort" segments (e.g., transit to and from the airport).</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>No flight paths are available for synoptic surveys flown prior to 2004. Starting in 2004 and in 2005, each survey team was supplied a map of their county/region. The maps provided the estimated flight paths that were hand drawn while in route. An observer in the aircraft was responsible for charting the aircraft's course and recording manatee sightings. Using ArcMap, heads up digitizing was used to transfer the hand drawn flight paths to a digital polyline. For QA/QC, printed versions of the digitized flight paths were distributed back to the individuals responsible for drawing the original path. Corrections were made on these maps and returned for digital updating/editing. A second edited edition of the maps was redistributed for final approval. Some additional edits where made at this time and then given the final approval by each surveying team. From the synoptic year 2006 forward, each survey team was provided a paper map set with a flight path that is to serve as a guide for the survey and a GPS unit to record the actual movements of the airplane. The GPS trackline was downloaded as points and converted to polylines, then the GPS tracks were merged together to create a state-wide path line, segmented by the survey area. Starting with the 2009 synoptic survey, "off effort" segments were edited out (ie., transit to and from the airport) before the GPS tracks were merged.</procdesc>
+                <procdate>20190301</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <indspref>Data retrieved from the geodata.myfwc.com are projected to Web Mercator. Data received directly from FWC staff remain in the custom PCS Albers projection (detailed in the Spatial Reference Information section).</indspref>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Complete chain</sdtstype>
+                <ptvctcnt>193</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Manatee Synoptic Survey Flight Path</enttypl>
+                <enttypd>GIS shapefile containing the digitized flight path for each year of the synoptic survey since 2004. The flight paths are stored in separate shapefiles for each survey. The current shapefile contains the flight paths for the most recent synoptic survey. The shapefile of the flight paths for the previous surveys can be requested separately.</enttypd>
+                <enttypds>MMR data sheet or GPS</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>SEGMENT</attrlabl>
+                <attrdef>Segment of the aerial survey.</attrdef>
+                <attrdefs>Producer-defined</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomvds>Producer-defined</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FLT_NUM</attrlabl>
+                <attrdef>Unique value identifying each flight path.</attrdef>
+                <attrdefs>Producer-defined</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomvds>Producer-defined</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FLT_TYPE</attrlabl>
+                <attrdef>Description of the type of flight the GPS paths were collected from. In most cases, this should be "Synoptic".</attrdef>
+                <attrdefs>Producer-defined</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Description of the survey type.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SURV_ID</attrlabl>
+                <attrdef>Unique survey identifier to distinguish individual surveys.</attrdef>
+                <attrdefs>Producer-defined</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>A unique ID for each complete synoptic survey, in the format of YYYY_synopticID# (For example, the first synoptic survey of 2009 is recorded as 2009_1).</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FLT_NAME</attrlabl>
+                <attrdef>Name of the region the flight path corresponds to.</attrdef>
+                <attrdefs>Producer-defined</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>See FLT_NUM domains for list of flight numbers and the regions they correspond to.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Fish and Wildlife Research Institute</address>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>metadata@MyFWC.com</cntemail>
+            </cntinfo>
+        </distrib>
+        <resdesc>This metadata documents the digitized tracks or GPS tracks recorded during synoptic survey flights. The metadata for the ArcGIS database of all manatees sighted during synoptic surveys from 1991 to present is detailed in the Manatee Synoptic Survey metadata.</resdesc>
+        <distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-Fish and Wildlife Research Institute produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formvern>20190301</formvern>
+                    <formspec>Digital or electronic dataset. Transmittal by ftp, e-mail or CD.</formspec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://geodata.myfwc.com</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>none</fees>
+            <ordering>Contact Group Metadata Technician</ordering>
+            <turnarnd>Approximately ten working days, depending on amount of information requested.</turnarnd>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20080116</metd>
+        <metrd>20190304</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Fish and Wildlife Research Institute</address>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>metadata@MyFWC.com</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>All data must be credited to FWC-FWRI (Florida Fish and Wildlife Conservation Commission - Fish and Wildlife Research Institute)</metuc>
+    </metainfo>
+</metadata>
